@@ -11,7 +11,18 @@ export const initialData = {
       title: "To do",
       tasksIds: ["task-1", "task-2", "task-3", "task-4"],
     },
+    "column-2": {
+      id: "column-2",
+      title: "In progress",
+      tasksIds: [],
+    },
+    "column-3": {
+      id: "column-3",
+      title: "Done",
+      tasksIds: [],
+    },
   },
   // Facilitate reordering of the columns
-  columnOrder: ["column-1"],
+  columnOrder: ["column-1", "column-2", "column-3"],
+  homeIndex: null,
 };
